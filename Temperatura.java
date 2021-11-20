@@ -7,9 +7,10 @@ public class Temperatura {
 		double f=0;
 		final double ajuste = 32;
 		final double multiplicador = 5.0/9.0;
+		double temp=(f-ajuste)*multiplicador;
 		
 		f=86;
-		double temp=(f-ajuste)*multiplicador;
+		
 		
 		System.out.println("O resultado é : "+temp+"c");
 		
